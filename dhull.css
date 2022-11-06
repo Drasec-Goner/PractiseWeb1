@@ -3,6 +3,7 @@ body
     background-image: url(/Assets/Images/pexels-philippe-donn-1169754.jpg);
     background-attachment: fixed, scroll;
     background-repeat: no-repeat, repeat-y;
+    background-size: cover;
 }
 h1 {
     color: crimson;
@@ -11,13 +12,16 @@ h1 {
 p {
     color: white;
     text-align: justify;
+    
 }
 
 .div1 {
     color: whitesmoke;
     text-align: justify;
-    border-style: dashed;
-    border-width: 5px 4px;
+    border-style: double;
+    border-width: 5px 4px 7px;
     border-color: cornflowerblue;
     padding: 1%;
+    margin:10px 50px;
+
 }
